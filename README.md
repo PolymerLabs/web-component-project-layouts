@@ -1,4 +1,4 @@
-# Web Component Package Layouts
+# Web Component Project Layouts
 
 This repository includes different ways to structure projects on the filesystem to demonstrate the various pros and cons of each approach.  There are applications, which are not intended to be used as packages imported or included by other packages.
 
@@ -13,7 +13,7 @@ This repository includes different ways to structure projects on the filesystem 
 There are also elements, which are expected to be used as dependencies of other packages and so must account for this.
 
 * `./element-with-tools-folder`
-  
+
   Polymer 3.0 element where all of the CLI packages are sequestered in a tools package subfolder and the "web" packages are installed in the package root's `node_modules`.
 
 * `./element-with-web-folder`
