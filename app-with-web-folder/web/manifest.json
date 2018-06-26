@@ -1,0 +1,6 @@
+{
+  "name": "app-with-web-folder",
+  "short_name": "app-with-web-folder",
+  "start_url": "/",
+  "display": "standalone"
+}

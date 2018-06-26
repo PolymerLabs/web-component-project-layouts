@@ -1,0 +1,11 @@
+{
+  "name": "app-with-tools-folder-tools-package",
+  "scripts": {
+    "prepublishOnly": "exit 1 # This tools subpackage is not intended to be published separately",
+    "test": "exit 1 # Tools subpackage is not tested separately from web package"
+  },
+  "dependencies": {
+    "polymer-cli": "^1.7.6",
+    "yarn": "^1.7.0"
+  }
+}

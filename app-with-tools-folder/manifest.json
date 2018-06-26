@@ -1,0 +1,6 @@
+{
+  "name": "app-with-tools-folder",
+  "short_name": "app-with-tools-folder",
+  "start_url": "/",
+  "display": "standalone"
+}

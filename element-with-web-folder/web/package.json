@@ -1,0 +1,17 @@
+{
+  "name": "element-with-web-folder",
+  "main": "element-with-web-folder.js",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  },
+  "resolutions": {
+    "type-detect": "1.0.0",
+    "supports-color": "3.1.2",
+    "samsam": "1.1.3"
+  }
+}

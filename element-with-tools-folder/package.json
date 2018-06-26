@@ -1,0 +1,26 @@
+{
+  "name": "element-with-tools-folder",
+  "main": "element-with-tools-folder.js",
+  "scripts": {
+    "bootstrap": "npm run install:tools && npm run install:web",
+    "build": "./tools/node_modules/.bin/polymer build",
+    "install:web": "./tools/node_modules/.bin/yarn install --flat",
+    "install:tools": "cd tools && npm install",
+    "nuke": "rm -rf ./package-lock.json ./yarn.lock ./node_modules ./tools/package-lock.json ./tools/node_modules",
+    "serve": "./tools/node_modules/.bin/polymer serve",
+    "test": "./tools/node_modules/.bin/polymer test --module-resolution=node --npm"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  },
+  "resolutions": {
+    "type-detect": "1.0.0",
+    "supports-color": "3.1.2",
+    "samsam": "1.1.3"
+  }
+}
